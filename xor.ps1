@@ -1,5 +1,5 @@
 function EncryptChar($char) {
-    return [int][char]($char -bxor [int][char]'v')
+    return [int][char]($char -bxor [int][char]'a')
 }
 
 function EncryptString($text) {
