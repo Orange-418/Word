@@ -1,5 +1,5 @@
 function DecryptChar($number) {
-    return [char]($number -bxor [int][char]'v')
+    return [char]($number -bxor [int][char]'a')
 }
 
 function GetFirstThreeChars($text) {
