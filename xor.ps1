@@ -13,6 +13,5 @@ function EncryptString($text) {
 
 $input = Read-Host "Enter the string to encrypt"
 $encryptedText = EncryptString $input
-$encryptedText += "086"
 Write-Output $encryptedText
 Write-Output "check 086"
